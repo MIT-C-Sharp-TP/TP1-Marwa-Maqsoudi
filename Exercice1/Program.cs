@@ -1,0 +1,11 @@
+﻿string name="Aya";
+int level=3;
+int health=100;
+float speed=5.5f;
+bool key=false;
+Console.WriteLine($"Name : {name}");
+Console.WriteLine($"Level : {level}");
+Console.WriteLine($"Health : {health} HP");
+Console.WriteLine($"Speed : {speed} m/s");
+Console.WriteLine($"Key : {key}");
+Console.WriteLine($"Next level at : {level*100} XP");
